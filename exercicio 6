@@ -1,0 +1,13 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digte um numero :");
+        double numero1 = Convert.ToDouble(Console.ReadLine());
+       			 double raiz = Math.Sqrt(numero1);
+       			 Console.WriteLine(" A raiz do número digitado é : " + raiz);
+                
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
