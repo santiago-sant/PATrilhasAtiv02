@@ -1,0 +1,14 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digte um numero :");
+        int numero1 = Convert.ToInt32(Console.ReadLine());
+        		int soma = numero1 + numero1;
+                Console.WriteLine(" O dobro do numero digitado é :" + soma);
+       
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
