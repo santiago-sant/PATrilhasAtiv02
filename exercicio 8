@@ -1,0 +1,16 @@
+	
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digte um numero :");
+        	int numero1 = Convert.ToInt32(Console.ReadLine());
+        
+       		 double absoluto = Math.Abs(numero1);
+       	 
+       		 Console.WriteLine(" O valor absoluto do número digitado é : " + absoluto);
+                
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
