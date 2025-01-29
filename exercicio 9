@@ -1,0 +1,17 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digte um numero :");
+        	int numero1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Digite outro numero");
+       		int numero2 = Convert.ToInt32(Console.ReadLine());
+       		 
+       				int multiplicacao = numero1 * numero2;
+       	 
+       Console.WriteLine(" A mutiplicaçao dos numeros digitados é  : " + multiplicacao);
+                
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
