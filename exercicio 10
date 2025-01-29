@@ -1,0 +1,15 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digte um numero :");
+        	int numero1 = Convert.ToInt32(Console.ReadLine());
+ 
+       				int resto = numero1 % 2;
+       	 
+       Console.WriteLine(" O resto do numero digitado por 2 é : " + resto);
+                
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
